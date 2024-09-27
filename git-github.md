@@ -32,8 +32,26 @@ Now, back to Git:
   - Git database stores everything by the **hash value** of its contents, not by file names
   - Git generally only <code>add</code> data, which improves data recovery by making it difficult to erase committed data
 
-
 Git is the VCS, and GitHub is the one of many remote repository hosting sites.
+
+## Common Git Commands
+<code> git init </code>
+- git init creates a new local git repository on your device
+
+<code> git status </code>
+- git status displays the working tree that you are on. It displays the files that aren't being tracked by git and which files were edited. 
+
+<code> git add </code>
+- git add puts a file into the staging area for commiting.
+
+<code> git commit -m 'commit message' </code>
+- git commit -m records the changes that you made to the respository. 
+
+<code> git rm -r 'file name' </code>
+- git rm -r can remove a file or folder by typing the folder/file name
+
+<code> git branch </code>
+- git branch displays a list of branches on your repository. The current branch that you are on is marked with an asterisk.
 
 ***
 ## What is GitHub?
